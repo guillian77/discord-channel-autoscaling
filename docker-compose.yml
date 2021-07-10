@@ -1,0 +1,6 @@
+version: '3'
+services:
+  discord-channel-autoscaling:
+    build:
+      context: .
+      dockerfile: Dockerfile
