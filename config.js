@@ -17,7 +17,7 @@
  * 
  * @type {string}
  */
-let token = "YourToken"
+let token = process.env.TOKEN
 
 /**
  * Status text, what bot's is doing ?
